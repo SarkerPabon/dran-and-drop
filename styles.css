@@ -1,0 +1,76 @@
+body {
+	width: 960px;
+	margin: 60px auto;
+}
+
+.text-center {
+	text-align: center;
+	color: #333;
+}
+
+.flex-container {
+	width: 600px;
+	margin: 0px auto;
+	/* display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      place-items: center; */
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.container {
+	/* background-color: #ccc; */
+	padding: 1rem;
+	margin-top: 1rem;
+	min-height: 400px;
+	min-width: 100px;
+	border: 1px solid #000;
+}
+
+.container p {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+
+	text-indent: -1000000px;
+	text-align: center;
+	line-height: 100px;
+	color: #fff;
+}
+
+#green {
+	background-color: green;
+}
+
+#orange {
+	background-color: orange;
+}
+
+#violet {
+	background-color: cyan;
+}
+
+#skyblue {
+	background-color: skyblue;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#pink {
+	background-color: pink;
+}
+
+.draggable {
+	padding: 1rem;
+	background-color: white;
+	cursor: move;
+}
+
+.draggable.dragging {
+	opacity: 0.5;
+	/* border: 1px solid tomato; */
+}
