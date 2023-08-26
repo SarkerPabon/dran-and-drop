@@ -36,3 +36,5 @@ containers.forEach((container) => {
 		console.log("drop");
 	});
 });
+
+console.log("Hello");
